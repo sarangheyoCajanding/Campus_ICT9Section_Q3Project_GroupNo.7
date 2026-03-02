@@ -1,0 +1,76 @@
+/* GENERAL STYLES */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.overlay {
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.8);
+  padding: 12px 20px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+/* HOME / FARE MATRIX */
+body.home-page {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.tech-card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: white;
+}
+
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* REGISTRATION PAGE */
+body.registration-page {
+  background-image: url("https://i.pinimg.com/1200x/a5/25/03/a52503ae21b8a91d171b29bd36a5ef82.jpg"); /* Replace with your photo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.account-card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: white;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* HOME / FARE MATRIX PAGE */
+body.home-page {
+  background-image: url("https://i.pinimg.com/1200x/a5/25/03/a52503ae21b8a91d171b29bd36a5ef82.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
