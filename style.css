@@ -1,4 +1,4 @@
-/* GENERAL STYLES */
+
 body {
   font-family: 'Segoe UI', sans-serif;
 }
@@ -40,9 +40,8 @@ body.home-page {
   overflow: hidden;
 }
 
-/* REGISTRATION PAGE */
 body.registration-page {
-  background-image: url("https://i.pinimg.com/1200x/a5/25/03/a52503ae21b8a91d171b29bd36a5ef82.jpg"); /* Replace with your photo */
+  background-image: url("https://i.pinimg.com/1200x/a5/25/03/a52503ae21b8a91d171b29bd36a5ef82.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -67,9 +66,8 @@ body.registration-page {
   margin-bottom: 15px;
 }
 
-/* HOME / FARE MATRIX PAGE */
 body.home-page {
-  background-image: url("https://i.pinimg.com/1200x/a5/25/03/a52503ae21b8a91d171b29bd36a5ef82.jpg"); /* Replace with your image URL */
+  background-image: url("https://i.pinimg.com/1200x/a5/25/03/a52503ae21b8a91d171b29bd36a5ef82.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
